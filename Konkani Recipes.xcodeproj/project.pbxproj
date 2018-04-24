@@ -11,13 +11,14 @@
 		51319E2C962CB0DAF652FCC2 /* Pods_Konkani_RecipesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA3BFF92050FBA8958618AA /* Pods_Konkani_RecipesUITests.framework */; };
 		5F404EB9F0FF90D6A71E8E93 /* Pods_Konkani_Recipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2686D5227834D0773AE5FAD7 /* Pods_Konkani_Recipes.framework */; };
 		764938F8208EEB370041FED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764938F7208EEB370041FED2 /* AppDelegate.swift */; };
-		764938FA208EEB370041FED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764938F9208EEB370041FED2 /* ViewController.swift */; };
 		764938FD208EEB370041FED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764938FB208EEB370041FED2 /* Main.storyboard */; };
 		76493900208EEB370041FED2 /* Konkani_Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 764938FE208EEB370041FED2 /* Konkani_Recipes.xcdatamodeld */; };
 		76493902208EEB380041FED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76493901208EEB380041FED2 /* Assets.xcassets */; };
 		76493905208EEB380041FED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76493903208EEB380041FED2 /* LaunchScreen.storyboard */; };
 		76493910208EEB380041FED2 /* Konkani_RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649390F208EEB380041FED2 /* Konkani_RecipesTests.swift */; };
 		7649391B208EEB380041FED2 /* Konkani_RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649391A208EEB380041FED2 /* Konkani_RecipesUITests.swift */; };
+		7676D789208EF40F0047435F /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676D788208EF40F0047435F /* RecipeListViewController.swift */; };
+		7676D78B208EF68A0047435F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676D78A208EF68A0047435F /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		7498DF7B147ADAF3DE0FEBE7 /* Pods-Konkani RecipesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests.release.xcconfig"; sourceTree = "<group>"; };
 		764938F4208EEB370041FED2 /* Konkani Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konkani Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764938F7208EEB370041FED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		764938F9208EEB370041FED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		764938FC208EEB370041FED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		764938FF208EEB370041FED2 /* Konkani_Recipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Konkani_Recipes.xcdatamodel; sourceTree = "<group>"; };
 		76493901208EEB380041FED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		76493916208EEB380041FED2 /* Konkani RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konkani RecipesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7649391A208EEB380041FED2 /* Konkani_RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konkani_RecipesUITests.swift; sourceTree = "<group>"; };
 		7649391C208EEB380041FED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7676D788208EF40F0047435F /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		7676D78A208EF68A0047435F /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		78D8BFAB960C4D03EBDF1641 /* Pods-Konkani RecipesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2931F071FD04F737ED414E9 /* Pods-Konkani RecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDE8EDF5F2E24AF862B00449 /* Pods-Konkani RecipesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,8 +131,9 @@
 		764938F6208EEB370041FED2 /* Konkani Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				7676D78A208EF68A0047435F /* Recipe.swift */,
 				764938F7208EEB370041FED2 /* AppDelegate.swift */,
-				764938F9208EEB370041FED2 /* ViewController.swift */,
+				7676D788208EF40F0047435F /* RecipeListViewController.swift */,
 				764938FB208EEB370041FED2 /* Main.storyboard */,
 				76493901208EEB380041FED2 /* Assets.xcassets */,
 				76493903208EEB380041FED2 /* LaunchScreen.storyboard */,
@@ -455,9 +458,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764938FA208EEB370041FED2 /* ViewController.swift in Sources */,
 				764938F8208EEB370041FED2 /* AppDelegate.swift in Sources */,
 				76493900208EEB370041FED2 /* Konkani_Recipes.xcdatamodeld in Sources */,
+				7676D789208EF40F0047435F /* RecipeListViewController.swift in Sources */,
+				7676D78B208EF68A0047435F /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,7 +638,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani Recipes/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-Recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -650,7 +657,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani Recipes/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-Recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -667,7 +677,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -685,7 +699,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -702,7 +720,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -719,7 +741,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
