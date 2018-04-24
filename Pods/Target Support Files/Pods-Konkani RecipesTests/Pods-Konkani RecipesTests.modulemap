@@ -1,0 +1,6 @@
+framework module Pods_Konkani_RecipesTests {
+  umbrella header "Pods-Konkani RecipesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

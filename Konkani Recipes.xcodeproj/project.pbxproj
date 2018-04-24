@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09EFABF097FAA4A8DCC9F797 /* Pods_Konkani_RecipesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BA19D86F56DDF99E8BFC5 /* Pods_Konkani_RecipesTests.framework */; };
+		51319E2C962CB0DAF652FCC2 /* Pods_Konkani_RecipesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA3BFF92050FBA8958618AA /* Pods_Konkani_RecipesUITests.framework */; };
+		5F404EB9F0FF90D6A71E8E93 /* Pods_Konkani_Recipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2686D5227834D0773AE5FAD7 /* Pods_Konkani_Recipes.framework */; };
 		764938F8208EEB370041FED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764938F7208EEB370041FED2 /* AppDelegate.swift */; };
 		764938FA208EEB370041FED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764938F9208EEB370041FED2 /* ViewController.swift */; };
 		764938FD208EEB370041FED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764938FB208EEB370041FED2 /* Main.storyboard */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2686D5227834D0773AE5FAD7 /* Pods_Konkani_Recipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konkani_Recipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		474BA19D86F56DDF99E8BFC5 /* Pods_Konkani_RecipesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konkani_RecipesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		560B6CF108097CFB3B0EB632 /* Pods-Konkani Recipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani Recipes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani Recipes/Pods-Konkani Recipes.debug.xcconfig"; sourceTree = "<group>"; };
+		6DA3BFF92050FBA8958618AA /* Pods_Konkani_RecipesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konkani_RecipesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7498DF7B147ADAF3DE0FEBE7 /* Pods-Konkani RecipesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests.release.xcconfig"; sourceTree = "<group>"; };
 		764938F4208EEB370041FED2 /* Konkani Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konkani Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764938F7208EEB370041FED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764938F9208EEB370041FED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		76493916208EEB380041FED2 /* Konkani RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konkani RecipesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7649391A208EEB380041FED2 /* Konkani_RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konkani_RecipesUITests.swift; sourceTree = "<group>"; };
 		7649391C208EEB380041FED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D8BFAB960C4D03EBDF1641 /* Pods-Konkani RecipesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2931F071FD04F737ED414E9 /* Pods-Konkani RecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDE8EDF5F2E24AF862B00449 /* Pods-Konkani RecipesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0E4952A6CB8A9004BEE835B /* Pods-Konkani Recipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani Recipes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani Recipes/Pods-Konkani Recipes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F404EB9F0FF90D6A71E8E93 /* Pods_Konkani_Recipes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EFABF097FAA4A8DCC9F797 /* Pods_Konkani_RecipesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51319E2C962CB0DAF652FCC2 /* Pods_Konkani_RecipesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C5324498B0FB8293E12F778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560B6CF108097CFB3B0EB632 /* Pods-Konkani Recipes.debug.xcconfig */,
+				F0E4952A6CB8A9004BEE835B /* Pods-Konkani Recipes.release.xcconfig */,
+				B2931F071FD04F737ED414E9 /* Pods-Konkani RecipesTests.debug.xcconfig */,
+				7498DF7B147ADAF3DE0FEBE7 /* Pods-Konkani RecipesTests.release.xcconfig */,
+				EDE8EDF5F2E24AF862B00449 /* Pods-Konkani RecipesUITests.debug.xcconfig */,
+				78D8BFAB960C4D03EBDF1641 /* Pods-Konkani RecipesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		764938EB208EEB370041FED2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				7649390E208EEB380041FED2 /* Konkani RecipesTests */,
 				76493919208EEB380041FED2 /* Konkani RecipesUITests */,
 				764938F5208EEB370041FED2 /* Products */,
+				4C5324498B0FB8293E12F778 /* Pods */,
+				CED648753982B83C72870844 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = "Konkani RecipesUITests";
 			sourceTree = "<group>";
 		};
+		CED648753982B83C72870844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2686D5227834D0773AE5FAD7 /* Pods_Konkani_Recipes.framework */,
+				474BA19D86F56DDF99E8BFC5 /* Pods_Konkani_RecipesTests.framework */,
+				6DA3BFF92050FBA8958618AA /* Pods_Konkani_RecipesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7649391F208EEB380041FED2 /* Build configuration list for PBXNativeTarget "Konkani Recipes" */;
 			buildPhases = (
+				16CB41FCBB806A10F3DD27AB /* [CP] Check Pods Manifest.lock */,
 				764938F0208EEB370041FED2 /* Sources */,
 				764938F1208EEB370041FED2 /* Frameworks */,
 				764938F2208EEB370041FED2 /* Resources */,
+				0C38E331BE55CFB7EC498FF2 /* [CP] Embed Pods Frameworks */,
+				D0633FFAAAB30E5DBB9D6EBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76493922208EEB380041FED2 /* Build configuration list for PBXNativeTarget "Konkani RecipesTests" */;
 			buildPhases = (
+				2BAAE8CF6229BFCCC732FF0F /* [CP] Check Pods Manifest.lock */,
 				76493907208EEB380041FED2 /* Sources */,
 				76493908208EEB380041FED2 /* Frameworks */,
 				76493909208EEB380041FED2 /* Resources */,
+				2C8EB4CBDBFAE3F77BE1C8A0 /* [CP] Embed Pods Frameworks */,
+				82062C77AF62ED3018816E95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76493925208EEB380041FED2 /* Build configuration list for PBXNativeTarget "Konkani RecipesUITests" */;
 			buildPhases = (
+				D1ADBB9FB868A2A64FBB6A91 /* [CP] Check Pods Manifest.lock */,
 				76493912208EEB380041FED2 /* Sources */,
 				76493913208EEB380041FED2 /* Frameworks */,
 				76493914208EEB380041FED2 /* Resources */,
+				ED872E1A690232A79BE2C99A /* [CP] Embed Pods Frameworks */,
+				E85A8EE8F9F1E33DD5A4A6CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C38E331BE55CFB7EC498FF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konkani Recipes/Pods-Konkani Recipes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16CB41FCBB806A10F3DD27AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Konkani Recipes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAAE8CF6229BFCCC732FF0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Konkani RecipesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C8EB4CBDBFAE3F77BE1C8A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82062C77AF62ED3018816E95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0633FFAAAB30E5DBB9D6EBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konkani Recipes/Pods-Konkani Recipes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1ADBB9FB868A2A64FBB6A91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Konkani RecipesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85A8EE8F9F1E33DD5A4A6CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED872E1A690232A79BE2C99A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		764938F0208EEB370041FED2 /* Sources */ = {
@@ -432,15 +628,13 @@
 		};
 		76493920208EEB380041FED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560B6CF108097CFB3B0EB632 /* Pods-Konkani Recipes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani Recipes/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-Recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -450,15 +644,13 @@
 		};
 		76493921208EEB380041FED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E4952A6CB8A9004BEE835B /* Pods-Konkani Recipes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani Recipes/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-Recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -468,17 +660,14 @@
 		};
 		76493923208EEB380041FED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2931F071FD04F737ED414E9 /* Pods-Konkani RecipesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -489,17 +678,14 @@
 		};
 		76493924208EEB380041FED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7498DF7B147ADAF3DE0FEBE7 /* Pods-Konkani RecipesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,16 +696,13 @@
 		};
 		76493926208EEB380041FED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE8EDF5F2E24AF862B00449 /* Pods-Konkani RecipesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -530,16 +713,13 @@
 		};
 		76493927208EEB380041FED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D8BFAB960C4D03EBDF1641 /* Pods-Konkani RecipesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U8LA2G52A7;
 				INFOPLIST_FILE = "Konkani RecipesUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mirsang.Konkani-RecipesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
