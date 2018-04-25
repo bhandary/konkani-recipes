@@ -5,6 +5,7 @@ cache:
 - cocoapods
 
 script:
+  - xcodebuild clean test -quiet -workspace Konkani\ Recipes.xcworkspace -list
   - xcodebuild clean test -quiet -workspace Konkani\ Recipes.xcworkspace -scheme Konkani\ Recipes -destination 'platform=iOS Simulator,name=iPhone 5s'
 
 after_success:
