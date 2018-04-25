@@ -10,6 +10,14 @@
 		09EFABF097FAA4A8DCC9F797 /* Pods_Konkani_RecipesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BA19D86F56DDF99E8BFC5 /* Pods_Konkani_RecipesTests.framework */; };
 		51319E2C962CB0DAF652FCC2 /* Pods_Konkani_RecipesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA3BFF92050FBA8958618AA /* Pods_Konkani_RecipesUITests.framework */; };
 		5F404EB9F0FF90D6A71E8E93 /* Pods_Konkani_Recipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2686D5227834D0773AE5FAD7 /* Pods_Konkani_Recipes.framework */; };
+		761A96FB20903DF000B31EEB /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A96F720903DEF00B31EEB /* Recipe+CoreDataClass.swift */; };
+		761A96FC20903DF000B31EEB /* Ingredient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A96F820903DEF00B31EEB /* Ingredient+CoreDataClass.swift */; };
+		761A96FD20903DF000B31EEB /* Ingredient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A96F920903DF000B31EEB /* Ingredient+CoreDataProperties.swift */; };
+		761A96FE20903DF000B31EEB /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A96FA20903DF000B31EEB /* Recipe+CoreDataProperties.swift */; };
+		761A970320903E9700B31EEB /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A96FF20903E9600B31EEB /* Image+CoreDataClass.swift */; };
+		761A970420903E9700B31EEB /* RecipeType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A970020903E9600B31EEB /* RecipeType+CoreDataClass.swift */; };
+		761A970520903E9700B31EEB /* RecipeType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A970120903E9600B31EEB /* RecipeType+CoreDataProperties.swift */; };
+		761A970620903E9700B31EEB /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761A970220903E9700B31EEB /* Image+CoreDataProperties.swift */; };
 		764938F8208EEB370041FED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764938F7208EEB370041FED2 /* AppDelegate.swift */; };
 		764938FD208EEB370041FED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764938FB208EEB370041FED2 /* Main.storyboard */; };
 		76493900208EEB370041FED2 /* Konkani_Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 764938FE208EEB370041FED2 /* Konkani_Recipes.xcdatamodeld */; };
@@ -18,7 +26,7 @@
 		76493910208EEB380041FED2 /* Konkani_RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649390F208EEB380041FED2 /* Konkani_RecipesTests.swift */; };
 		7649391B208EEB380041FED2 /* Konkani_RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649391A208EEB380041FED2 /* Konkani_RecipesUITests.swift */; };
 		7676D789208EF40F0047435F /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676D788208EF40F0047435F /* RecipeListViewController.swift */; };
-		7676D78B208EF68A0047435F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676D78A208EF68A0047435F /* Recipe.swift */; };
+		7676D78D208F04D60047435F /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676D78C208F04D60047435F /* RecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		560B6CF108097CFB3B0EB632 /* Pods-Konkani Recipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani Recipes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani Recipes/Pods-Konkani Recipes.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA3BFF92050FBA8958618AA /* Pods_Konkani_RecipesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konkani_RecipesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7498DF7B147ADAF3DE0FEBE7 /* Pods-Konkani RecipesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests.release.xcconfig"; sourceTree = "<group>"; };
+		761A96F720903DEF00B31EEB /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataClass.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/Recipe+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		761A96F820903DEF00B31EEB /* Ingredient+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataClass.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/Ingredient+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		761A96F920903DF000B31EEB /* Ingredient+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataProperties.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/Ingredient+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		761A96FA20903DF000B31EEB /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/Recipe+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		761A96FF20903E9600B31EEB /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataClass.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/Image+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		761A970020903E9600B31EEB /* RecipeType+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RecipeType+CoreDataClass.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/RecipeType+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		761A970120903E9600B31EEB /* RecipeType+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RecipeType+CoreDataProperties.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/RecipeType+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		761A970220903E9700B31EEB /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataProperties.swift"; path = "/Users/mbhandary/Documents/Projects/Konkani Recipes/Konkani Recipes/Image+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		764938F4208EEB370041FED2 /* Konkani Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konkani Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764938F7208EEB370041FED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764938FC208EEB370041FED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +74,7 @@
 		7649391A208EEB380041FED2 /* Konkani_RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konkani_RecipesUITests.swift; sourceTree = "<group>"; };
 		7649391C208EEB380041FED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7676D788208EF40F0047435F /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
-		7676D78A208EF68A0047435F /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		7676D78C208F04D60047435F /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		78D8BFAB960C4D03EBDF1641 /* Pods-Konkani RecipesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2931F071FD04F737ED414E9 /* Pods-Konkani RecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesTests/Pods-Konkani RecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDE8EDF5F2E24AF862B00449 /* Pods-Konkani RecipesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konkani RecipesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konkani RecipesUITests/Pods-Konkani RecipesUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +122,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		761A970720903F0500B31EEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				761A96FF20903E9600B31EEB /* Image+CoreDataClass.swift */,
+				761A970220903E9700B31EEB /* Image+CoreDataProperties.swift */,
+				761A970020903E9600B31EEB /* RecipeType+CoreDataClass.swift */,
+				761A970120903E9600B31EEB /* RecipeType+CoreDataProperties.swift */,
+				761A96F820903DEF00B31EEB /* Ingredient+CoreDataClass.swift */,
+				761A96F920903DF000B31EEB /* Ingredient+CoreDataProperties.swift */,
+				761A96F720903DEF00B31EEB /* Recipe+CoreDataClass.swift */,
+				761A96FA20903DF000B31EEB /* Recipe+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		764938EB208EEB370041FED2 = {
 			isa = PBXGroup;
 			children = (
@@ -131,9 +162,10 @@
 		764938F6208EEB370041FED2 /* Konkani Recipes */ = {
 			isa = PBXGroup;
 			children = (
-				7676D78A208EF68A0047435F /* Recipe.swift */,
+				761A970720903F0500B31EEB /* Model */,
 				764938F7208EEB370041FED2 /* AppDelegate.swift */,
 				7676D788208EF40F0047435F /* RecipeListViewController.swift */,
+				7676D78C208F04D60047435F /* RecipeDetailViewController.swift */,
 				764938FB208EEB370041FED2 /* Main.storyboard */,
 				76493901208EEB380041FED2 /* Assets.xcassets */,
 				76493903208EEB380041FED2 /* LaunchScreen.storyboard */,
@@ -458,10 +490,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761A970320903E9700B31EEB /* Image+CoreDataClass.swift in Sources */,
 				764938F8208EEB370041FED2 /* AppDelegate.swift in Sources */,
 				76493900208EEB370041FED2 /* Konkani_Recipes.xcdatamodeld in Sources */,
+				761A970620903E9700B31EEB /* Image+CoreDataProperties.swift in Sources */,
+				761A970420903E9700B31EEB /* RecipeType+CoreDataClass.swift in Sources */,
+				761A96FD20903DF000B31EEB /* Ingredient+CoreDataProperties.swift in Sources */,
+				761A96FE20903DF000B31EEB /* Recipe+CoreDataProperties.swift in Sources */,
+				761A96FC20903DF000B31EEB /* Ingredient+CoreDataClass.swift in Sources */,
 				7676D789208EF40F0047435F /* RecipeListViewController.swift in Sources */,
-				7676D78B208EF68A0047435F /* Recipe.swift in Sources */,
+				7676D78D208F04D60047435F /* RecipeDetailViewController.swift in Sources */,
+				761A970520903E9700B31EEB /* RecipeType+CoreDataProperties.swift in Sources */,
+				761A96FB20903DF000B31EEB /* Recipe+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,8 @@ class RecipeListViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("You selected row \(indexPath.row) in section \(indexPath.section)")
+        
+        performSegue(withIdentifier: "showRecipe", sender: nil)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -37,7 +39,10 @@ class RecipeListViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "normalCell", for: indexPath)
+        cell.imageView?.image = UIImage(named: "curry")
+        cell.accessoryType = .disclosureIndicator
+        cell.detailTextLabel?.text = "This is some detail text"
         
         switch indexPath.section {
         case 0:
